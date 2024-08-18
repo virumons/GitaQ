@@ -1,0 +1,20 @@
+{
+    "name":"Motive",
+    "description":"The motive Extension provides with random solkas and meaning of it daily.",
+    "version":"1.0",
+    "author":"Viraj Kulkarni",
+    "manifest_version": 3,
+
+    "action":{
+        "default_popup":"./popup.html",
+        "default_icon":"icons.png"
+    },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "tab.html"
+  },
+
+    "permission":["activeTab","tabs","storage", "scripting"]
+}

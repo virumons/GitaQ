@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motive</title>
+    <style>
+        #main-container{
+            width: 350px;
+            height: 200px;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: start;
+        }
+        #align-text{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+           padding: 10px;
+        }
+        
+    </style>
+
+</head>
+<body style="background-color: black; border-radius: 20px;">
+    <div id="main-container">
+        
+        <div id="align-text">
+            <img src="./icons.png" width="64px" height="64px"/>
+            <div style="margin-left: 10px;">
+                <h3 style="padding: 0%; margin-bottom: 4px;">Motive</h3>
+                <p style="padding: 0%; margin: 0%;">Some text for users</p>
+            </div>
+        </div>
+
+        <div style=" width: 100%; display: flex; flex-direction: row; justify-content: space-between; align-items: center; ">
+            
+            <a id="start" style="padding: 10px 20px; background-color: #22ba2f; text-decoration: none; border-radius: 20px; font-weight: 700; margin-right: 10px;">Get Started</a>
+        </div>
+    
+    </div>
+    <script>
+        function reset() {
+            location.reload();
+        }
+    </script>
+</body>
+</html>
